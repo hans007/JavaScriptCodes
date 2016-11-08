@@ -10,7 +10,7 @@ function log (str) {
 }
 
 // 声明
-var myobjectModel = {
+var myobjectModel = new Object({
     num : 0,
     add : function() {
         myobjectModel.num ++;
@@ -18,7 +18,7 @@ var myobjectModel = {
     get : function() {
         return myobjectModel.num;
     }
-};
+});
 
 // 调用
 myobjectModel.add();

@@ -1,0 +1,44 @@
+<h1>闭包私有化</h1>
+<div id="logDiv"></div>
+
+<script type="text/javascript">
+
+// 日志函数
+function log (str) {
+    var obj = document.getElementById("logDiv");
+    obj.innerHTML += str+"<br>";
+}
+
+// 声明
+var myobjectModel = function () {
+     var instance = new Object();
+     instance.num = 0;
+
+     instance.add = function () {
+         instance.num ++;
+     };
+
+     instance.get = function () {
+         return instance.num;
+     };
+
+     return {
+         add : instance.add,
+         get : instance.get
+     };
+};
+
+// 调用
+var my1 = new myobjectModel();
+my1.add();
+my1.add();
+var val1 = my1.get();
+log(val1);
+
+var my2 = new myobjectModel();
+my2.add();
+my2.add();
+var val2 = my2.get();
+log(val2);
+
+</script>

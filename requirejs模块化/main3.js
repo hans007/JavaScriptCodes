@@ -1,6 +1,6 @@
 // 配置
 require.config({
-    baseUrl: "../lib/"
+    baseUrl: "lib/"
 });
 
 // 第一次调用

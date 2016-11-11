@@ -1,5 +1,5 @@
 // 第一次调用
-require(['../lib/module2'], function (mod2){
+require(['lib/module2'], function (mod2){
 
     var mod = mod2();
     mod.add();
@@ -10,7 +10,7 @@ require(['../lib/module2'], function (mod2){
 });
 
 // 第二次调用
-require(['../lib/module2'], function (mod2){
+require(['lib/module2'], function (mod2){
 
     var mod = mod2();
     mod.add();

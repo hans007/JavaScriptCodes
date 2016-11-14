@@ -1,0 +1,18 @@
+<script src="../sea-modules/core/sea.js" id="seajsnode" ></script>
+<script>
+    seajs.config({
+        base: "../sea-modules/",
+    });
+
+    seajs.use(['lib/module1'],function(mod1){
+        mod1.add();
+        mod1.add();
+        console.log(mod1.get());
+    });
+
+    seajs.use(['lib/module1'],function(mod1){
+        mod1.add();
+        mod1.add();
+        console.log(mod1.get());
+    });
+</script>

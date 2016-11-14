@@ -1,0 +1,19 @@
+<script src="../sea-modules/core/sea.js" ></script>
+<script src="../sea-modules/core/seajs-css.js" ></script>
+
+<script>
+    seajs.config({
+        base: "../sea-modules/",
+        alias: {
+            "jquery": "core/jquery-3.1.1.seajs.min.js",
+            "dialog": "lib/artDialog/dialog.js"
+        }
+    });
+
+    seajs.use("lib/artDialog/ui-dialog.css");
+    seajs.use("lib/module4");
+
+
+</script>
+
+<button id="myButton">点击我</button>

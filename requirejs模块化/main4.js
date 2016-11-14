@@ -1,7 +1,7 @@
 // 配置
 require.config({
     paths: {
-        "jquery" : "../core/jquery-3.1.1.min"
+        "jquery" : "./core/jquery-3.1.1.min"
     }
 });
 

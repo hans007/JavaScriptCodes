@@ -2,10 +2,13 @@
 <script>
     seajs.config({
         base: "../sea-modules/",
+        alias: {
+            "module1": "lib/module1.js"
+        }
     });
 
     seajs.use(['lib/module3'],function(mod3){
 
-        console.log("ok~");
+        console.log("module3 执行完成");
     });
 </script>

@@ -1,4 +1,4 @@
-define("lib/module4", [ "./module4-ui", "jquery" ], function(require) {
+define("lib/module4", ["./module4-ui"], function(require) {
     var ui = require("./module4-ui");
     ui.setup();
 });
@@ -11,7 +11,7 @@ define("lib/module4-ui", ["jquery","dialog"], function(require, exports, module)
     exports.setup = function () {
 
         $("#myButton").click( function () {
-            // alert(123);
+            //alert(123);
 
             var d = dialog({
                 title: '欢迎',

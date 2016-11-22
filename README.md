@@ -10,3 +10,4 @@ JS闭包            | 单例 非单例 私有化 模块集成
 requirejs模块化   | requirejs 例子
 seajs模块化       | seajs 例子
 gruntjs          | grunt 例子
+fis3             | fis3 例子

@@ -1,0 +1,22 @@
+在html中定位资源
+<img title="fis3 logo" src="http://cdn.baidu.com/png_8652a39.png"/>
+<link rel="stylesheet" type="text/css" href="/static/css/demo_3a5495f.css">
+<script type="text/javascript" src="/static/js/demo_9b4f5bd.js"></script>
+
+在js中定位资源
+<script>
+var img = 'http://cdn.baidu.com/png_8652a39.png';
+var css = '/static/css/demo_3a5495f.css';
+var js = '/static/js/demo_9b4f5bd.js';
+</script>
+
+在css中定位资源
+<style>
+@import url('/static/css/demo_3a5495f.css');
+.style {
+    background: url('http://cdn.baidu.com/png_8652a39.png');
+}
+.style {
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://cdn.baidu.com/png_8652a39.png');
+}
+</style>

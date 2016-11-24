@@ -1,0 +1,10 @@
+<script type="text/javascript" src="../static/require.js"></script>
+<script type="text/javascript">
+    require.config({
+        baseUrl: "/",
+    });
+
+    require(["amd-module/center/order.js"], function(order){
+        console.log(order.list());
+    });
+</script>

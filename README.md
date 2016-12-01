@@ -48,3 +48,4 @@ JS代码整理
 
 [第六节:全局对象与全局变量&常用工具](https://hans007.github.io/nodejs%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/2016/11/29/nodejs-global-util-06)
 
+[第七节:文件系统&工具模块](https://hans007.github.io/nodejs%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/2016/11/30/nodejs-file-tools-07)
